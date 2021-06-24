@@ -1,0 +1,21 @@
+{
+    "name": "gvim-theme",
+    "displayName": "Gvim Theme",
+    "description": "Defaul light gvim theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gvim Theme",
+                "uiTheme": "vs",
+                "path": "./themes/Gvim Theme-color-theme.json"
+            }
+        ]
+    }
+}
