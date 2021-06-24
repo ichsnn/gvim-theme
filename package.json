@@ -3,8 +3,13 @@
     "displayName": "Gvim Theme",
     "description": "Defaul light gvim theme",
     "version": "0.0.1",
+    "publisher": "ichsn",
     "engines": {
         "vscode": "^1.57.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ichsnn/gvim-theme"
     },
     "categories": [
         "Themes"
