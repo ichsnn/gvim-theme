@@ -4,6 +4,7 @@
     "description": "Defaul light gvim theme",
     "version": "0.0.1",
     "publisher": "ichsn",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.57.0"
     },
