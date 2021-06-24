@@ -1,8 +1,8 @@
 {
 	"name": "Gvim Theme",
 	"type": "light",
-	"colors": {
-		"editor.background": "#f5f5f5",
+  "colors": {
+		"editor.background": "#ffffff",
 		"editor.foreground": "#333333"
 	},
 	"tokenColors": [
@@ -13,8 +13,8 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#AAAAAA"
+				"fontStyle": "",
+				"foreground": "#0000ff"
 			}
 		},
 		{
@@ -22,7 +22,7 @@
 			"scope": "comment.block.preprocessor",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#AAAAAA"
+				"foreground": "#0000ff"
 			}
 		},
 		{
@@ -46,38 +46,96 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#000000"
 			}
 		},
 		{
 			"name": "Keywords",
-			"scope": [
-				"keyword",
-				"storage"
-			],
+			"scope": "keyword.control.directive.include.cpp",
 			"settings": {
-				"foreground": "#4B83CD"
+				"foreground": "#a020f0"
 			}
 		},
 		{
-			"name": "Types",
-			"scope": [
-				"storage.type",
-				"support.type"
-			],
+			"name": "Keywords",
+			"scope": "keyword.other.using.directive.cpp",
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#a52a2a"
 			}
 		},
+		{
+			"name": "storage.type",
+			"scope": [
+				"storage.type.namespace.directive.cpp",
+				"keyword.other.namespace.directive.cpp",
+			],
+			"settings": {
+				"foreground": "#2e8b57",				
+			}
+		},
+		{
+			"name": "storage.type",
+			"scope": "storage.type.struct.cpp",
+			"settings": {
+				"foreground": "#2e8b57",				
+			}
+		},
+		{
+			"name": "source.type",
+			"scope": "entity.name.namespace.cpp",
+			"settings": {
+				"foreground": "#000000",				
+			}
+		},			
+		{
+			"name": "source.cpp",
+			"scope": [
+				"storage.type.built-in.primitive.cpp",
+				"storage.type.primitive.cpp"
+			],
+			"settings": {
+				"foreground": "#2e8b57",				
+			}
+		},	
+		{
+			"name": "source.cpp",
+			"scope": [
+				"keyword.control"				
+			],
+			"settings": {
+				"foreground": "#a52a2a",				
+			}
+		},			
+		{
+			"name": "source.cpp",
+			"scope": [
+				"meta.body.struct.cpp",
+				"entity.name.type.cpp",
+				"storage.modifier.pointer.cpp",
+				"entity.name.type.parameter.cpp",
+				"storage.modifier.reference.cpp",
+				"meta.body.function.definition.cpp"				
+			],
+			"settings": {
+				"foreground": "#000000",				
+			}
+		},					
+		{
+			"name": "enity.name.type.struct.cpp",
+			"scope": [
+				"entity.name.type.struct.cpp"				
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},		
 		{
 			"name": "Language Constants",
 			"scope": [
-				"constant.language",
-				"support.constant",
-				"variable.language"
+				"constant.language",				
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#ff00ff"
 			}
 		},
 		{
@@ -87,9 +145,9 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#000000"
 			}
-		},
+		},		
 		{
 			"name": "Functions",
 			"scope": [
@@ -97,22 +155,11 @@
 				"support.function"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#AA3731"
+				"fontStyle": "",
+				"foreground": "#000000"
 			}
 		},
-		{
-			"name": "Classes",
-			"scope": [
-				"entity.name.type",
-				"entity.other.inherited-class",
-				"support.class"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#7A3E9D"
-			}
-		},
+		
 		{
 			"name": "Exceptions",
 			"scope": "entity.name.exception",
@@ -126,7 +173,7 @@
 			"settings": {
 				"fontStyle": "bold"
 			}
-		},
+		},	
 		{
 			"name": "Numbers, Characters",
 			"scope": [
@@ -135,7 +182,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#ff00ff"
 			}
 		},
 		{
@@ -143,6 +190,15 @@
 			"scope": "string",
 			"settings": {
 				"foreground": "#448C27"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string.quoted.double.cpp"
+			],
+			"settings": {
+				"foreground": "#ff00ff"
 			}
 		},
 		{
@@ -170,7 +226,35 @@
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#a020f0"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation.section.block.begin.bracket.curly.struct.cpp",
+				"punctuation.section.block.begin.bracket.curly.function.definition.cpp",
+				"punctuation.section.parameters.begin.bracket.round.cpp",
+				"punctuation.section.parameters.end.bracket.round.cpp",
+				"punctuation.section.arguments.end.bracket.round.function.call.cpp",
+				"punctuation.section.arguments.begin.bracket.round.function.call.cpp",
+				"punctuation.terminator.statement.cpp"
+			],			
+			"settings": {
+				"foreground": "#000000"
+			}
+		},		
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation.definition.string.begin.cpp",
+				"punctuation.definition.string.end.cpp",
+				"string.quoted.other.lt-gt.include.cpp",
+				"meta.preprocessor.include.cpp",
+				"source.cpp",
+			], 
+			"settings": {
+				"foreground": "#ff00ff"
 			}
 		},
 		{
