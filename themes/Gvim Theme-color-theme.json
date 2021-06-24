@@ -232,12 +232,9 @@
 		{
 			"name": "Punctuation",
 			"scope": [
-				"punctuation.section.block.begin.bracket.curly.struct.cpp",
-				"punctuation.section.block.begin.bracket.curly.function.definition.cpp",
-				"punctuation.section.parameters.begin.bracket.round.cpp",
-				"punctuation.section.parameters.end.bracket.round.cpp",
-				"punctuation.section.arguments.end.bracket.round.function.call.cpp",
-				"punctuation.section.arguments.begin.bracket.round.function.call.cpp",
+				"punctuation.section.block",				
+				"punctuation.section.parameters",								
+				"punctuation.section.arguments",				
 				"punctuation.terminator.statement.cpp"
 			],			
 			"settings": {
