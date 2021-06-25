@@ -1,4 +1,4 @@
-# gVim Theme Light Default
+# gVim Theme
 Vscode Theme base on gVim ([Vim](https://www.vim.org/download.php)).
 
 ## Installing
