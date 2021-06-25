@@ -7,8 +7,22 @@
 		"editorLineNumber.foreground": "#a52a2a",
 		"editorLineNumber.activeForeground": "#ff0000",
 		"activityBar.foreground": "#000000",
-		"activityBar.background": "#e2e2e2"
-	},
+		"activityBar.background": "#e2e2e2",			
+		"editor.findMatchBackground": "#73ff00",		
+		"editor.findMatchHighlightBackground": "#ffff00",		
+		"editor.selectionBackground": "#d3d3d3",		
+		"editor.selectionHighlightBackground": "#55399600",	
+		"editorBracketMatch.background": "#0064001a",				
+		"editor.inactiveSelectionBackground": "#ffffff00",				
+		"editor.lineHighlightBorder": "#ffffff00",						
+		"editorCursor.background": "#ffffff",		
+		"editorCursor.foreground": "#000000",
+		"editorWarning.foreground": "#ff0000",
+		"editor.rangeHighlightBackground": "#ff000000",		
+		"selection.background": "#d3d3d3",
+		"list.activeSelectionBackground": "#d3d3d3",
+		"list.activeSelectionForeground": "#000000"		
+	},	
 	"tokenColors": [
 		{
 			"name": "Comments",
@@ -151,7 +165,7 @@
 			"settings": {
 				"foreground": "#000000"
 			}
-		},		
+		},				
 		{
 			"name": "Functions",
 			"scope": [
@@ -161,6 +175,16 @@
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function.preprocessor"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FF00FF"
 			}
 		},
 		

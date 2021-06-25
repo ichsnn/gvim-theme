@@ -1,10 +1,10 @@
 {
     "name": "gvim-theme",
-    "displayName": "Gvim Theme",
-    "description": "Defaul light gvim theme",
-    "version": "0.0.2",
+    "displayName": "gVim Theme",
+    "description": "gVim default light theme",
+    "version": "0.0.3",
     "publisher": "ichsn",
-    "icon": "icon.png",
+    "icon": "gvim-theme-icon.png",
     "engines": {
         "vscode": "^1.57.0"
     },
