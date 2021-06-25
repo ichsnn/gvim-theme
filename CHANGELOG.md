@@ -1,9 +1,7 @@
 # Change Log
 
-All notable changes to the "gvim-theme" extension will be documented in this file.
+## Released 0.0.2
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- Fix c++ punctuation
+- Change activityBar.foreground color
+- Change activityBar.background color
