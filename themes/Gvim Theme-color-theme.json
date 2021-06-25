@@ -6,6 +6,8 @@
 		"editor.foreground": "#333333",
 		"editorLineNumber.foreground": "#a52a2a",
 		"editorLineNumber.activeForeground": "#ff0000",
+		"activityBar.foreground": "#000000",
+		"activityBar.background": "#e2e2e2"
 	},
 	"tokenColors": [
 		{
@@ -237,7 +239,11 @@
 				"punctuation.section.block",				
 				"punctuation.section.parameters",								
 				"punctuation.section.arguments",				
-				"punctuation.terminator.statement.cpp"
+				"punctuation.terminator.statement.cpp",
+				"punctuation.section.parens.end.bracket.round.cpp",
+				"punctuation.section.parens.begin.bracket.round.cpp",
+				"punctuation.separator.pointer-access.cpp",
+				"punctuation.separator.delimiter.comma.cpp"				
 			],			
 			"settings": {
 				"foreground": "#000000"
