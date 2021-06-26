@@ -1,7 +1,7 @@
 # gVim Theme
 Vscode Theme base on gVim ([Vim](https://www.vim.org/download.php)).
 
-![alt](screenshoots/1.png)
+![gVim Theme](screenshot/1.png)
 
 ## Installing
 
