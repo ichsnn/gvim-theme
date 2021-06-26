@@ -23,7 +23,6 @@
 		"selection.background": "#d3d3d3",
 		"list.activeSelectionBackground": "#d3d3d3",
 		"list.activeSelectionForeground": "#000000",
-
 	},	
 	"tokenColors": [
 		{

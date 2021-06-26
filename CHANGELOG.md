@@ -4,6 +4,7 @@
 
 - Update html, css, & javascript color
 - Change editorBracketMatch.background color
+- Update [README.md](README.md)
 
 ## Released 0.0.3
 
