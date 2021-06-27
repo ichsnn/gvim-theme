@@ -1,5 +1,8 @@
 # Change Log
 
+## Released 0.0.5
+- Fix define color cpp file
+
 ## Released 0.0.4
 
 - Update html, css, & javascript color
