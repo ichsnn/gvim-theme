@@ -83,7 +83,7 @@
 		},
 		{
 			"name": "Keywords",
-			"scope": "keyword.control.directive.include.cpp",
+			"scope": "keyword.control.directive",
 			"settings": {
 				"foreground": "#a020f0"
 			}
