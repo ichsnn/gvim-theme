@@ -1,6 +1,6 @@
 # Change Log
 
-## Released 0.0.5.1
+## Released 0.0.6
 - Fix source.cpp scope color
 
 ## Released 0.0.5
