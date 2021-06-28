@@ -124,12 +124,13 @@
 			"scope": [
 				"storage.type.built-in.primitive.cpp",
 				"storage.type.primitive.cpp",
-				"storage.modifier.specifier.const.cpp"
+				"storage.modifier.specifier.const.cpp",
+				"keyword.other"
 			],
 			"settings": {
 				"foreground": "#2e8b57",				
 			}
-		},	
+		},			
 		{
 			"name": "source.cpp",
 			"scope": [
@@ -300,8 +301,7 @@
 				"string.quoted.other.lt-gt.include.cpp",
 				"punctuation.definition.string.begin.js",
 				"punctuation.definition.string.end.js",
-				"meta.preprocessor.include.cpp",
-				"source.cpp",
+				"meta.preprocessor.include.cpp",				
 			], 
 			"settings": {
 				"foreground": "#ff00ff"
