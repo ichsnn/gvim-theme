@@ -1,5 +1,8 @@
 # Change Log
 
+## Released 0.0.5.1
+- Fix source.cpp scope color
+
 ## Released 0.0.5
 - Fix define color cpp file
 
