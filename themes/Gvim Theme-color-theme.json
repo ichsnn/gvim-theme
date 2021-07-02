@@ -7,7 +7,8 @@
 		"editorLineNumber.foreground": "#a52a2a",
 		"editorLineNumber.activeForeground": "#ff0000",
 		"activityBar.foreground": "#000000",
-		"activityBar.background": "#e2e2e2",			
+		"activityBar.background": "#ffffff",
+		"activityBar.border": "#d3d3d3",			
 		"editor.findMatchBackground": "#73ff00",		
 		"editor.findMatchHighlightBackground": "#ffff00",		
 		"editor.selectionBackground": "#d3d3d3",		
@@ -23,6 +24,13 @@
 		"selection.background": "#d3d3d3",
 		"list.activeSelectionBackground": "#d3d3d3",
 		"list.activeSelectionForeground": "#000000",
+		"titleBar.activeBackground": "#ffffff",
+		"titleBar.activeForeground": "#000000",
+		"titleBar.border": "#d3d3d3",
+		"sideBar.background": "#ffffff",
+		"sideBar.border": "#d3d3d3",
+		"terminal.foreground": "#000000",
+		"panelTitle.activeForeground": "#000000",		
 	},	
 	"tokenColors": [
 		{
