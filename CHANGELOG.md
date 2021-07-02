@@ -1,5 +1,11 @@
 # Change Log
 
+## Released 0.0.7
+- Update c++ function color and fontstyle
+- Update title bar color
+- Update side bar color
+- Update activity bar color
+
 ## Released 0.0.6
 - Fix source.cpp scope color
 
