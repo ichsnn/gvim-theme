@@ -14,7 +14,7 @@ If you want to change the cursor style like vim (terminal cursor), you can chang
 ```json
 {
   "editor.cursorStyle": "block"
- }
+}
 ```
 ### Custom Font
 The custom font used in the screenshot is [Input Mono Medium](https://input.djr.com/) Font.
