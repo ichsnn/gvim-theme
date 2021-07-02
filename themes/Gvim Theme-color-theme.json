@@ -109,6 +109,7 @@
 			"name": "storage.type",
 			"scope": "storage.type.struct.cpp",
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#2e8b57",				
 			}
 		},
@@ -128,6 +129,7 @@
 				"keyword.other"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#2e8b57",				
 			}
 		},			
@@ -137,6 +139,7 @@
 				"keyword.control"				
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#a52a2a",				
 			}
 		},			
@@ -181,29 +184,7 @@
 			"settings": {
 				"foreground": "#000000"
 			}
-		},				
-		{
-			"name": "Functions",
-			"scope": [
-				"entity.name.function",
-				"support.function"
-			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#000000"
-			}
-		},
-		{
-			"name": "Functions",
-			"scope": [
-				"entity.name.function.preprocessor"
-			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#FF00FF"
-			}
-		},
-		
+		},						
 		{
 			"name": "Exceptions",
 			"scope": "entity.name.exception",
@@ -249,7 +230,7 @@
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#A020F0"
 			}
 		},
 		{
@@ -288,6 +269,25 @@
 				"punctuation.definition.end.bracket.square.array.type.cpp",	
 				"punctuation.definition.begin.bracket.square",
 				"punctuation.definition.end.bracket.square"
+			],			
+			"settings": {
+				"foreground": "#000000"
+			}
+		},		
+		{
+			"name": "punctuation.section.parens.begin.bracket.round.conditional.switch.cpp",
+			"scope": [
+				"punctuation.section.parens.begin.bracket.round.conditional.switch.cpp",
+				"punctuation.section.parens.end.bracket.round.conditional.switch.cpp"
+			],			
+			"settings": {
+				"foreground": "#000000"
+			}
+		},					
+		{
+			"name": "punctuation.separator.colon.case.cpp",
+			"scope": [
+				"punctuation.separator.colon.case.cpp",				
 			],			
 			"settings": {
 				"foreground": "#000000"
