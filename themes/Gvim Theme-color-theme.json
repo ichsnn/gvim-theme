@@ -795,6 +795,64 @@
 			"settings": {
 				"foreground": "#434343"
 			}
-		}
+		},
+		{
+			"name": "source.java",
+			"scope": [
+				"storage.modifier.java",
+				"storage.type.primitive.java"
+			],
+			"settings": {				
+				"fontStyle": "bold",
+				"foreground": "#2e8b57"
+			}
+		},
+		{
+			"name": "punctuation",
+			"scope": [
+				"punctuation.section.class.begin.bracket.curly.java",
+				"punctuation.section.class.end.bracket.curly.java",
+				"punctuation.terminator.java",
+				"punctuation.definition.parameters.begin.bracket.round.java",
+				"punctuation.definition.parameters.end.bracket.round.java",
+				"punctuation.separator.period.java",
+				"punctuation.separator.java",
+				"punctuation.section.method.end.bracket.curly.java",
+				"punctuation.section.method.begin.bracket.curly.java",
+				"punctuation.bracket.square.java",				
+			],
+			"settings": {								
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "punctuation",
+			"scope": [
+				"punctuation.definition.string.begin.java",		
+				"punctuation.definition.string.end.java",		
+			],
+			"settings": {								
+				"foreground": "#ff00ff"
+			}
+		},
+		{
+			"name": "string",
+			"scope": [
+				"string.quoted.double.java",						
+			],
+			"settings": {								
+				"foreground": "#ff00ff"
+			}
+		},
+		{
+			"name": "keyword.other",
+			"scope": [
+				"keyword.other.import.java",						
+			],
+			"settings": {		
+				"fontStyle": "",						
+				"foreground": "#6a5acd"
+			}
+		},
 	]
 }
