@@ -882,5 +882,91 @@
 				"foreground": "#6a5acd"
 			}
 		},
+		{
+			"name": "punctuation",
+			"scope": [
+				"punctuation.definition.variable.php",						
+			],
+			"settings": {		
+				"fontStyle": "bold",						
+				"foreground": "#A52A2A"
+			}
+		},
+		{
+			"name": "variable",
+			"scope": [
+				"variable.other.php",						
+			],
+			"settings": {												
+				"foreground": "#008B8B"
+			}
+		},
+		{
+			"name": "keyword.operator",
+			"scope": [
+				"keyword.operator.assignment.php",
+				"keyword.operator.comparison.php",
+			],
+			"settings": {		
+				"fontStyle": "bold",										
+				"foreground": "#A52A2A"
+			}
+		},
+		{
+			"name": "punctuation",
+			"scope": [
+				"punctuation.definition.string.begin.php",
+				"punctuation.definition.string.end.php",
+			],
+			"settings": {											
+				"foreground": "#ff00ff"
+			}
+		},
+		{
+			"name": "punctuation",
+			"scope": [
+				"punctuation.terminator.expression.php"				
+			],
+			"settings": {											
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "string",
+			"scope": [
+				"string.quoted.double.php",				
+				"string.quoted.single.php",				
+			],
+			"settings": {											
+				"foreground": "#ff00ff"
+			}
+		},
+		{
+			"name": "source.php",
+			"scope": [
+				"support.function.construct.output.php",				
+			],
+			"settings": {											
+				"foreground": "#A020F0"
+			}
+		},
+		{
+			"name": "source.php",
+			"scope": [
+				"support.function.construct.output.php",				
+			],
+			"settings": {											
+				"foreground": "#A020F0"
+			}
+		},
+		{
+			"name": "source.php",
+			"scope": [
+				"support.function.string.php"
+			],
+			"settings": {											
+				"foreground": "#008B8B"
+			}
+		},
 	]
 }
