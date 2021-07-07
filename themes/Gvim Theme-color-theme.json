@@ -354,6 +354,7 @@
 				"meta.tag.metadata"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#a52a2a"
 			}
 		},						
@@ -391,6 +392,7 @@
 				"string.quoted.double.html"
 			],
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#ff00ff"
 			}
 		},				
@@ -472,7 +474,8 @@
 			"scope": [
 				"variable.other.object.js"		
 			],
-			"settings": {				
+			"settings": {	
+				"fontStyle": "bold",			
 				"foreground": "#a52a2a"
 			}
 		},								
@@ -518,6 +521,7 @@
 				"support.class.builtin.js",				
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#2E8B57"
 			}
 		},									
@@ -563,6 +567,7 @@
 				"keyword.operator.new.js",				
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#a52a2a"
 			}
 		},																			
@@ -631,6 +636,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#2e8b57"
 			}
 		},
@@ -643,6 +649,28 @@
 			],
 			"settings": {
 				"foreground": "#448C27"
+			}
+		},
+		{
+			"name": "CSS: Important Keyword",
+			"scope": "keyword.other.important",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "CSS: Important Keyword",
+			"scope": "keyword.other.unit.px.css",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#ff00ff"
+			}
+		},
+		{
+			"name": "punctuation",
+			"scope": "punctuation.separator.key-value.css",
+			"settings": {				
+				"foreground": "#000000"
 			}
 		},
 		{
