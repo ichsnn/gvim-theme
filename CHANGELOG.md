@@ -1,5 +1,11 @@
 # Change Log
 
+## Released 0.0.8
+- Update php color (1)
+- Update javascript color
+- Update html fontstyle
+- Update css fontstyle
+
 ## Released 0.0.7
 - Update c++ function color and fontstyle
 - Update title bar color

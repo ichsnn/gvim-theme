@@ -2,7 +2,7 @@
     "name": "gvim-theme",
     "displayName": "gVim Theme",
     "description": "gVim default light theme",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "publisher": "ichsn",
     "icon": "gvim-theme-icon.png",
     "engines": {
